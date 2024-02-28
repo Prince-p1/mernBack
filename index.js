@@ -6,7 +6,7 @@ const mongoDB = require("./db")
 mongoDB();
 
 app.use((req,res,next)=>{
-  res.setHeader("Access-Control-Allow-Origin", "https://mernfront-3.onrender.com");
+  res.setHeader("Access-Control-Allow-Origin", "https://65df3f590c7658161c232a92--quiet-youtiao-2455ac.netlify.app");
   res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE");
   // res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
   res.header(
